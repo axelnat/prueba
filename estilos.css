@@ -1,0 +1,44 @@
+h1 {
+    color:darkblue ;
+    background-color: linen;
+    
+}
+body {
+    text-align: center;
+    background-color: darkslategrey; 
+    enable-background: accumulate;
+}  
+
+a {
+    font-size: 20px;
+    color: black;
+}
+
+#parrafoPrincipal {
+    color: black
+}
+.parrafoSecundario {
+    font-size: 40px;
+    color:blanchedalmond
+}
+.centrar {
+    display: inline;
+    float: left;
+}
+
+div { 
+    display: flex;
+}
+
+nav{
+    width: 100%;
+}
+li{
+    background-color: whitesmoke;
+}
+nav li {
+    display: inline;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}

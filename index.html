@@ -1,12 +1,13 @@
-<!<!DOCTYPE <html>
-    <html lang="es">
+<!DOCTYPE <html>
+  <html lang="es">
 <head> <<title> Mi primer pag</title>
-<<link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="estilos.css">
+<meta charset="UTF-8"> 
 
 
 
 </head>
-<<body>
+<body>
     
 <h1>Bienvenidos</h1> 
 <h3>&#8465;
@@ -20,7 +21,63 @@
 
 
 <hr><hr> 
-<p> Este es un parrafo </p>
+<p> Ingre sus datos : </p>
+
+<fieldset>
+  <legend>Formulario</legend>
+<form method="post" autocomplete>
+  <label for="nombre">Nombre</label> 
+  <input type="text" id="nombre" placeholder=" Su Nombre "> <br> <br>
+
+  <label for="email">Email</label>
+  <input type="email" placeholder=" Ingrese su Email " name="email"> <br> <br>
+
+  <label for="edad">Edad </label>
+  <input type="number" name="edad" placeholder=" Edad "> <br> <br>
+
+  <label for="altura"> Altura </label>
+  <input type="number" name="altura" placeholder=" Altura " step="any"> <br> <br>
+
+
+  <label for="contraseña">Contraseña</label>
+  <input type="password" name="contraseña" placeholder=" Su Contraseña"> <br> <br>
+
+  <label for=""></label> <br>
+ 
+  <p> Seleccione el horario de clases </p>
+  <input type="checkbox" name="horario"> 
+  <label for="">Mañana</label> <br>
+  <input type="checkbox" name="horario"> 
+  <label for="">tarde</label> <br>
+  <input type="checkbox" name="horario"> 
+  <label for="">noche</label> <br>
+   
+
+  <p> Seleccione el curso </p>
+
+  <input type="radio" name="curso"> 
+  <label for="radio"> html </label> <br> 
+  <input type="radio" name="curso">
+  <label for="radio"> Css </label> <br> 
+  <input type="radio" name="curso">
+  <label for="radio"> Javascript </label> <br>
+   
+  <p> Seleccione la modalidad </p>
+  
+  <select name="" id="">
+    <option value="">Virtual</option>
+    <option value="">Presencial</option>
+    <option value="">Mixto</option>
+
+  </select> <br> <br>
+
+<label for="coment"> Ingrese un Comentario </label> <br>
+
+<textarea name="coment" rows="20" cols="40" placeholder="Ingrese su Comentario"></textarea> <br><br>
+ 
+ <input type="submit"> <br> <br>
+</fieldset>
+</form>
 
 <hr>
 <hr>
@@ -37,7 +94,7 @@
 <hr>
 <p id="parrafoPrincipal"> esto es un parrafo </p>
 <p class="parrafoSecundario"> esto es otro parrafo </p>
-<p class="parrafoSecundario"> esto es tamnien parrafo </p>
+<p class="parrafoSecundario"> Aqui abajo hay dos listas </p>
 
 <p> Cursos </p>
 
